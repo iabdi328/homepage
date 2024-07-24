@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+/* header */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding-top: 16px; 
+    color: white;
+}
+
+.logo {
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.links, a{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+
+
+
+
+
+/* main content */
+
+
+.main-content{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 80px;
+    
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    gap : 8px;
+}
+
+.text .one {
+    font-size: 48px;
+}
+
+.text .four {
+    font-size: 48px;
+}
+
+.text .two{
+    font-family: roboto;
+    font-size: 18px;
+}
+
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+.text .three {
+    background-color: #3882f6; /* Blue background */
+    border: 2px solid white;
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    height: 40px;
+
+}
+
+
+
+
+
+/* random */
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 25%;
+}
+.title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+  
+.info .text {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    color: black;
+  }
+
+
+.info img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightblue;
+}
+
+
+/* Thor */
+
+.Thor {
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.who {
+    color: black;
+    margin-left: 400px;
+}
+
+/* sign up*/
+
+.end {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding: 80px;
+    height: 100vh; /* Ensures the flex container takes the full height of the viewport */
+}
+.ender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Centers the contents of .ender vertically */
+    background-color: #3882f6;
+    height: 100px;
+    width: 800px;
+}
+
+.call {
+    color: White;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: #3882f6; /* Blue background */
+    border: 2px solid white;
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
